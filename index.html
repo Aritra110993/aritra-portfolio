@@ -4,37 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Aritra | Quality & Compliance Professional</title>
+  <title>Aritra Deb | Internal Audit & Risk Professional</title>
 
   <meta name="description"
-        content="Quality Assurance, Audit, Compliance, and Process Excellence professional. UK Skilled Worker Visa focused. GitHub portfolio and professional profile." />
+        content="Internal Audit, Risk & Compliance professional with 7+ years’ experience. UK Skilled Worker visa focused." />
 
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-      color: #222;
+      background: linear-gradient(135deg, #eef2f7, #f8f9fa);
+      color: #1f2933;
       line-height: 1.6;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1100px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 50px 20px;
+      perspective: 1200px;
+    }
+
+    /* 3D CARD BASE */
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 35px;
+      margin-bottom: 40px;
+      box-shadow:
+        0 10px 25px rgba(0,0,0,0.08),
+        0 25px 50px rgba(0,0,0,0.05);
+      transform-style: preserve-3d;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px) rotateX(1.2deg);
+      box-shadow:
+        0 20px 40px rgba(0,0,0,0.12),
+        0 35px 70px rgba(0,0,0,0.08);
     }
 
     h1 {
-      font-size: 36px;
-      margin-bottom: 5px;
-      color: #0d6efd;
+      font-size: 38px;
+      margin-bottom: 6px;
+      color: #2563eb;
     }
 
     h2 {
-      margin-top: 40px;
-      color: #0d6efd;
-      border-bottom: 2px solid #e9ecef;
+      margin-top: 0;
+      color: #2563eb;
+      border-bottom: 2px solid #e5e7eb;
       padding-bottom: 6px;
     }
 
@@ -42,8 +62,16 @@
       margin: 10px 0;
     }
 
+    ul {
+      margin: 10px 0 0 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
     a {
-      color: #0d6efd;
+      color: #2563eb;
       text-decoration: none;
       font-weight: 600;
     }
@@ -52,20 +80,38 @@
       text-decoration: underline;
     }
 
-    .tag-list span {
+    /* SKILL PILLS */
+    .skills span {
       display: inline-block;
-      background-color: #e9ecef;
-      padding: 6px 14px;
+      background: #f1f5f9;
+      padding: 8px 16px;
       margin: 6px 6px 0 0;
-      border-radius: 20px;
+      border-radius: 999px;
       font-size: 14px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
     }
 
+    /* HEADER CARD */
+    .hero {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: #ffffff;
+    }
+
+    .hero h1,
+    .hero p {
+      color: #ffffff;
+    }
+
+    .hero strong {
+      font-weight: 700;
+    }
+
+    /* FOOTER */
     .footer {
-      margin-top: 60px;
       text-align: center;
       font-size: 14px;
-      color: #666;
+      color: #6b7280;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -73,59 +119,81 @@
 <body>
   <div class="container">
 
-    <!-- HEADER -->
-    <h1>Aritra</h1>
-    <p><strong>Quality Assurance | Audit | Compliance | Process Excellence</strong></p>
-    <p>
-      Quality & Compliance professional focused on audit readiness, scalable QA frameworks,
-      and AI-enabled process improvement. Actively targeting
-      <strong>UK Skilled Worker visa–sponsored roles</strong>.
-    </p>
+    <!-- HERO -->
+    <div class="card hero">
+      <h1>Aritra Deb</h1>
+      <p><strong>Internal Auditor | Risk & Compliance | Quality & Controls</strong></p>
+      <p>
+        Internal Audit and Quality & Compliance professional with <strong>7+ years’ experience</strong>
+        delivering internal audits, enterprise risk assessments, and ISO-aligned control testing.
+        Actively seeking <strong>UK Skilled Worker visa–sponsored roles</strong>.
+      </p>
+    </div>
 
-    <!-- CORE SKILLS -->
-    <h2>Core Expertise</h2>
-    <div class="tag-list">
-      <span>Quality Assurance</span>
-      <span>Internal & External Audits</span>
-      <span>Compliance & Risk</span>
-      <span>Process Improvement</span>
-      <span>QA Frameworks</span>
-      <span>AI in Quality</span>
-      <span>Stakeholder Management</span>
+    <!-- CORE EXPERTISE -->
+    <div class="card">
+      <h2>Core Expertise</h2>
+      <div class="skills">
+        <span>Internal Audit</span>
+        <span>Enterprise Risk Assessment</span>
+        <span>Internal Controls</span>
+        <span>Compliance & Governance</span>
+        <span>ISO 9001 / 10002 / 19011</span>
+        <span>ISO/IEC 27001</span>
+        <span>RCA & CAPA</span>
+        <span>KPI / SLA / CSAT</span>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="card">
+      <h2>Professional Experience</h2>
+
+      <p><strong>Cognizant — Quality Process Specialist (Internal Audit & Risk)</strong></p>
+      <ul>
+        <li>Conduct internal audits and enterprise risk assessments across financial and operational processes.</li>
+        <li>Evaluate internal controls, identify compliance gaps, and assess operational risks.</li>
+        <li>Perform independent control testing aligned with ISO 19011 audit methodology.</li>
+        <li>Deliver audit reports, dashboards, and remediation tracking for senior stakeholders.</li>
+      </ul>
+
+      <p><strong>Vedantu Innovations — Quality Analyst (Audit & Controls)</strong></p>
+      <ul>
+        <li>Executed internal audits and control checks on operational processes.</li>
+        <li>Supported remediation tracking and audit readiness.</li>
+      </ul>
+
+      <p><strong>Firstsource Solutions — Quality Analyst</strong></p>
+      <ul>
+        <li>Performed compliance audits and improved quality scores by 15% through coaching.</li>
+      </ul>
     </div>
 
     <!-- PROJECTS -->
-    <h2>Projects</h2>
-    <p><strong>ComplyZen</strong> — QA Audit & Compliance Automation</p>
-    <p>
-      Designed structured QA audit frameworks with automated scoring,
-      dashboards, compliance tracking, and audit readiness reporting.
-    </p>
+    <div class="card">
+      <h2>Key Projects</h2>
+      <ul>
+        <li><strong>EpiFi Banking Initiative:</strong> Identified and resolved 15% of key banking-related risks pre-deployment.</li>
+        <li><strong>LinkedIn International Project:</strong> Reduced processing errors by 20% and improved team proficiency by 35%.</li>
+      </ul>
+    </div>
 
     <!-- PROFILES -->
-    <h2>Profiles</h2>
-    <p>
-      🔗 LinkedIn:
-      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-        https://www.linkedin.com/in/YOUR-LINKEDIN
-      </a>
-    </p>
-
-    <p>
-      🔗 GitHub:
-      <a href="https://github.com/USERNAME" target="_blank">
-        https://github.com/USERNAME
-      </a>
-    </p>
+    <div class="card">
+      <h2>Profiles</h2>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">https://www.linkedin.com/in/YOUR-LINKEDIN</a></p>
+      <p>🔗 GitHub: <a href="https://github.com/USERNAME" target="_blank">https://github.com/USERNAME</a></p>
+    </div>
 
     <!-- CONTACT -->
-    <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
-    <p>Open to UK-based opportunities with visa sponsorship.</p>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: debadebs@gmail.com</p>
+      <p>Bengaluru, India · Open to UK relocation & sponsorship</p>
+    </div>
 
-    <!-- FOOTER -->
     <div class="footer">
-      © 2026 Aritra · Built with clarity, not buzzwords
+      © 2026 Aritra Deb · Internal Audit · Risk · Compliance
     </div>
 
   </div>
